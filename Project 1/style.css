@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  background: url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon {
+  width: 200px;
+  height: 70px;
+  float: left;
+}
+.logo {
+  color: orangered;
+  font-size: 32px;
+  font-family: Arial;
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+.menu {
+  width: 400px;
+  height: 70px;
+  float: left;
+}
+ul {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+}
+ul li a:hover {
+  color: orange;
+}
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+.srch {
+  font-family: "Times New Roman";
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid orange;
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  background: orange;
+  border: 2px solid orange;
+  margin-top: 13px;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+.srch:focus {
+  outline: none;
+}
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+.content .par {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.content h1 {
+  font-family: "Times New Roman";
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 10%;
+  letter-spacing: 2px;
+  margin-bottom: 9px;
+}
+.content .cn {
+  width: 160px;
+  height: 40px;
+  background: orange;
+  border: none;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+}
+.cn a {
+  text-decoration: none;
+  color: black;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color: rgba(255, 68, 0, 0.762);
+    font-size: 60px;
+}
