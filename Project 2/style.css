@@ -1,0 +1,55 @@
+.container-fluid {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(101, 78, 146, 0.729) 25%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 0;
+}
+.col-10 img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+.display-5 span {
+  color: #ebd8b2;
+}
+.fw-bold .mb-0 .fs-2 {
+  margin-left: 49px;
+}
+.nav-item a {
+  color: white;
+}
+.Me1 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(165, 192, 221, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.Me2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 0.7905287114845938) 0%,
+    rgba(235, 216, 178, 1) 35%
+  );
+}
+.Me3 {
+  background: rgb(235, 216, 178);
+  background: linear-gradient(
+    270deg,
+    rgba(235, 216, 178, 1) 0%,
+    rgba(165, 192, 221, 1) 35%
+  );
+}
+.modal-content {
+  background-color: #daf5ff;
+}
+.Me4 {
+  background-color: #2192ff;
+}
