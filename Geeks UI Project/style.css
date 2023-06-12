@@ -6,12 +6,17 @@
   padding: 0;
   background-color: white;
 }
+html {
+  width: auto;
+  height: 1077px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 10%;
-  width: 1263px;
+  width: 1200px;
 }
 li,
 a,
@@ -52,7 +57,7 @@ button {
   display: flex;
   align-items: center;
   height: 500px;
-  width: 1263px;
+  width: 1200px;
 }
 .content1 {
   width: 442px;
@@ -92,4 +97,45 @@ button {
 }
 .image1 img {
   width: 500px;
+}
+.hero2 {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  align-items: center;
+}
+.image2 {
+  margin-left: 93px;
+}
+.image2 img {
+  width: 500px;
+  height: 418px;
+}
+.percentage {
+  text-align: center;
+  width: 600px;
+  margin-top: 20px;
+}
+.percentage img {
+  width: 518px;
+}
+.content2 h4 {
+  font-size: 25px;
+  color: purple;
+  width: 600px;
+  margin-left: 62px;
+}
+.inabout {
+  font-size: 55px;
+}
+.agency {
+  color: purple;
+}
+.whois {
+  width: 600px;
+  margin-left: 62px;
+}
+.content2 p {
+  width: 430px;
+  margin-left: 62px;
 }
