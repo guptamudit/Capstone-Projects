@@ -293,8 +293,14 @@ button {
   color: white;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
+  transition-duration: 0.4s;
 }
 textarea:focus,
 input:focus {
   outline: none;
+}
+.get button:hover {
+  color: purple;
+  background-color: white;
+  border-left: solid purple;
 }
